@@ -13,6 +13,6 @@ namespace EFCoreRelationshipsAndSeedData.Models
 
         public double Price { get; set; }
 
-        public ICollection<Category> Categories { get; set; }
+        public List<Category> Categories { get; set; }
     }
 }
